@@ -1,6 +1,6 @@
 {
   "name": "yup-schema-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package thakes json or array of objects and convert it to yup schema",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
