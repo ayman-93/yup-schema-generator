@@ -1,6 +1,6 @@
 import GenerateSchema from './GenerateSchema';
 
-const CreateDynamicSchema = (config: [] | string) => {
+export const CreateDynamicSchema = (config: [] | string) => {
   let configArray: [];
   if (!Array.isArray(config)) {
     configArray = JSON.parse(config);
@@ -9,5 +9,3 @@ const CreateDynamicSchema = (config: [] | string) => {
   }
   return configArray.reduce(GenerateSchema, {});
 };
-
-exports.CreateDynamicSchema = CreateDynamicSchema;
