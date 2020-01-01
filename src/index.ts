@@ -10,4 +10,4 @@ const CreateDynamicSchema = (config: [] | string) => {
   return configArray.reduce(GenerateSchema, {});
 };
 
-export default CreateDynamicSchema;
+exports.CreateDynamicSchema = CreateDynamicSchema;
